@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    height: 100vw;
+}
+
+/*   Menu   */
+nav {
+    position: fixed;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 1.3vw 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: end;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1.1vw;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5vw;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    transition: all 300ms;
+    color: #000;
+    background-color: #fff;
+}
+
+nav h2 {
+    margin: 0 1.1vw;
+    font-size: 2.5vw;
+}
+
+/*    Home    */
+
+#sobre {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secao2 .sobre h1, h2 {
+    font-size: 2.3vw;
+    padding-top: 1.3vw;
+    margin: 1.2vw;
+    margin-left: 4.9vw;
+}
+
+.secao2 .sobre p {
+    font-size: 1.4vw;
+    padding-top: 10px;
+    margin: 30px 70px;
+}
+
+.secao2 h4 {
+    margin-top: 3.5vw;
+    padding-left: 2.5vw;
+    font-size: 1.1vw;
+}
+
+.secao2 .secao2-div-card p {
+    font-size: 1vw;
+    color: #000;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.secao2 {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+img {
+    background-color: #000;
+    margin-right: 6.5vw;
+}
+
+.btn {
+    width: 9vw;
+    height: 3.5vw;
+    border-radius: 5px;
+    border: none;
+    background: #000;
+    font-size: 1.5vw;
+    font-weight: 500;
+    line-height: 1;
+    transition: all 1s;
+    color: #fff;
+    margin-left: 4.9vw;
+    margin-top: 5.9vw;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover {
+    transform: translateY(10px);
+}
+
+/*    Formação     */
+#formacao {
+    width: 100%;
+    height: 100vh;
+    padding-top: 6vw;
+}
+
+.secao3 h1 {
+    font-size: 2.3vw;
+    padding-top: 1.3vw;
+    margin: 2.2vw;
+}
+
+.secao3 .sobre p {
+    font-size: 2.5vw;
+    padding-top: 10px;
+    margin: 20px 60px;
+}
+
+.secao3 p {
+    font-size: 1vw;
+    color: #fff;
+    padding: 15px;
+    font-weight: 700;
+}
+
+.secao3 {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.secao-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.secao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 6vw;
+    margin: 1.2vw;
+    padding: 5.1vw;
+    border-radius: 1.2vw;
+    background-color: #ffffff;
+}
+
+.secao-3 .secao p {
+    text-align: center;
+    padding-top: 1.5vw;
+    font-size: 1.3vw;
+}
+
+/*    Portifólio    */
+#portifolio {
+    width: 100%;
+    height: 100vh;
+    padding-top: 6vw;
+}
+.secao4 h1 {
+    font-size: 2.3vw;
+    padding-top: 1.3vw;
+    margin: 2.2vw;
+}
+
+.text {
+    margin: 25px;
+    font-size: 1.5vw;
+}
+
+.secao-3 .sobre p {
+    font-size: 2.5vw;
+    padding-top: 10px;
+    margin: 20px 60px;
+}
+
+.secao-3 p {
+    font-size: 1vw;
+    color: #fff;
+    padding: 15px;
+    font-weight: 700;
+}
+
+.secao-3 {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.secao-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.secao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    height: 10vw;
+    margin: 1.2vw;
+    padding: 5.1vw;
+    border-radius: 1.2vw;
+    background-color: #000;
+}
+
+.secao-3 .secao p {
+    text-align: center;
+    padding-top: 1.5vw;
+    font-size: 1.2vw;
+}
+
+/*    Contato    */
+#contato {
+    width: 100%;
+    height: 100vh;
+    padding-top: 6vw;
+}
+
+.form-container {
+    max-width: 50vw;
+    max-height: 50vw;
+    margin: 0 auto;
+    padding: 1em 2em 1px 2em;
+    border-radius: 7px;
+    border: solid #ddd;
+    background-color: #fff;
+    margin-top: 1.5vw;
+}
+
+.form-container h2 {
+    font-size: 2.2vw;
+    margin-bottom: 20px;
+    color: #000;
+    text-align: left;
+    text-align: center;
+}
+
+form div {
+    margin-bottom: 1.2vw;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #000;
+    font-size: 1.3vw;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 1.1vw;
+    border: 4px solid #ddd;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 9vw;
+    resize: vertical;
+}
+
+form button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.3vw;
+}
+
+form button:hover {
+    background-color: #555;
+}
